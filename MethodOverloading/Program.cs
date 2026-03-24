@@ -4,6 +4,11 @@
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(Add(5, 3));
+            Console.WriteLine(Add(5.5m, 3.2m));
+            Console.WriteLine(Add(5, 3, true));
+            Console.WriteLine(Add(1, 0, true));
+            Console.WriteLine(Add(5, 3, false));
         }
         static int Add(int a, int b)
         {
